@@ -29,6 +29,7 @@ public class PositionEditor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log(transform.position);
         if (Input.GetKeyDown(KeyCode.X))
         {
             transform.position = new Vector3(loadPositionX(), loadPositionY(), loadPositionZ());

@@ -1,6 +1,9 @@
 #pragma once
 
 #include "plugInSetting.h"
+#include <iostream>
+#include <fstream>
+
 class PLUGIN_API PositionEditorClass
 {
 public:
